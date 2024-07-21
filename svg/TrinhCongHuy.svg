@@ -53,6 +53,9 @@
           transform: translate(-50%, -50%) rotateX(5deg) rotateY(5deg) rotateZ(5deg);
         }
         .greeting {
+          <!-- max-width: 50%;
+          height: auto; -->
+          flex-wrap: wrap;
           overflow: hidden;
           font-weight: bold;
 					font-size: 36px;
@@ -77,9 +80,9 @@
 			</style>
 
 			<div class="container">
-        <div class="earth"></div>
+        <!-- <div class="earth"></div> -->
 				<div class="greeting">
-          Hi Aliens!<br/>I'm Trinhconghuy from the Earth.
+          Welcome aboard! 🚀<br/>I'm Trinhconghuy, a dedicated developer, <br/>passionate about innovation and collaboration.
         </div>
         <div class="skills">
           <div class="skills_icon">
